@@ -24,4 +24,4 @@
 - [Оплата телефона.md](https://github.com/iliasmsk/demo/blob/main/%D0%9E%D0%BF%D0%BB%D0%B0%D1%82%D0%B0%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0.md) - описание процесса оплаты телефона
 - [Оценка документации.md](https://github.com/iliasmsk/demo/blob/main/%D0%9E%D1%86%D0%B5%D0%BD%D0%BA%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8.md) - статья для Хабра по аудиту документации
 - [Статусная модель.md](https://github.com/iliasmsk/demo/blob/main/%D0%A1%D1%82%D0%B0%D1%82%D1%83%D1%81%D0%BD%D0%B0%D1%8F%20%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C.md) - пример для регламента работы сотрудников
-- [Концепция LPC.md](https://github.com/iliasmsk/demo/blob/main/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F%20LPC.md) - описание концепции в авиационной сфере
+- [Концепция LPC.md](https://github.com/iliasmsk/demo/blob/main/%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%86%D0%B8%D1%8F%20LPC.md) - разработка способа идентификации и обмена информацией в авиационной сфере
