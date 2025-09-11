@@ -1,3 +1,31 @@
+### Базовые команды git
+
+<kbd>
+<img src="/Screens/git_commands.png">
+</kbd>
+
+#### Инициация
+- git init
+- git status
+- git log -p <path/filename.md>
+- git pull = git fetch + git merge
+- git branch -a
+
+#### Отправка в удаленное хранилище
+- git add <file>
+- git commit - m <"Сообщение">
+- git push
+
+#### Отмена операций
+- git restore <file>
+- git restore --staged <file>
+- git reset --soft HEAD~1
+- git reset --mixed HEAD~1
+- git reset --hard HEAD~1
+
+---
+
+```PlantUML
 @startuml
 hide footbox
 skinparam sequenceMessageAlign center
@@ -14,7 +42,7 @@ participant Remote
 rnote across #FFF2CC: ИНИЦИАЦИЯ
 User -> Folder: git init
 rnote over Folder
-Папка .git
+Создание папки .git
 end note
 User -> Folder: git status
 rnote over Folder
@@ -28,8 +56,13 @@ Remote -> Folder: git pull = git fetch + git merge
 rnote over Folder
 Посмотреть и применить
 end note
+User -> Folder: git branch
+User -> Remote: git branch -a
+rnote over Folder
+Текущая (*) локальная ветка + удаленная
+end note
 
-rnote across #FFF2CC: ПУБЛИКАЦИЯ
+rnote across #FFF2CC: ОТПРАВКА В УДАЛЕННОЕ ХРАНИЛИЩЕ
 User -> Folder: Модификация файла
 rnote over Folder
 "modified"
@@ -41,7 +74,7 @@ end note
 Index -> Local: git commit - m <"Сообщение">
 Local -> Remote: git push
 
-rnote across #FFF2CC: ОТКАТЫ
+rnote across #FFF2CC: ОТМЕНА ДЕЙСТВИЙ
 Folder --> Folder: git restore <file>
 rnote over Folder
 unmodified, 1 файл
@@ -62,4 +95,4 @@ Local --[#red]> Folder: git reset --hard HEAD~1
 rnote over Folder
 unmodified, все файлы!
 end note
-@enduml
+@enduml```
