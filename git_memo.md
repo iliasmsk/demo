@@ -95,4 +95,5 @@ Local --[#red]> Folder: git reset --hard HEAD~1
 rnote over Folder
 unmodified, все файлы!
 end note
-@enduml```
+@enduml
+```
